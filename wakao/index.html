@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>团购</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/myfocus-2.0.4.min.js"></script>
+	<script type="text/javascript">
+		myFocus.set({
+			id:'picBox',//焦点图盒子ID
+			pattern:'mF_tbhuabao',//焦点图风格名称
+		});
+	</script>
+</head>
+<body>
+	<div class="header" id="head">
+		<div class="header_nav">	
+			<ul>
+				<li><a href="#">帮助中心</a></li>
+				<li><a href="#">登录</a></li>
+				<li><a href="#">注册</a></li>
+			</ul>
+		</div><!-- header_nav -->
+		<div class="brand_pic">
+			<img src="http://image.mywakao.com/banner.jpg"></div><!-- brand_pic -->
+	</div><!-- header结束 -->
+	<div class="content">
+		<div class="content_nav">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li style="position: relative;"><a href="#" onmouseover="menuChange()" onmouseout="menuCancle()" onclick="menuDisplay()">团购区<span id = "triangle"></span></a>
+					<ul id="menu">
+						<li><a href="#">姨妈秒</a></li>
+						<li><a href="#">官方团</a></li>
+						<li><a href="#">认证团</a></li>
+					</ul>
+				</li>
+				<li><a href="#">优店</a></li>
+				<li><a href="#">良品</a></li>
+				<li><a href="#">遇见</a></li>
+				<li><a href="#">福利社</a></li>
+			</ul><!--消除空格
+			--><div class="search_input" onmouseover="searchHintShow()" onmouseout="searchHintMiss()">
+				<div class="search_hint">请输入搜索内容！</div>
+				<form>
+					<i class="search_icon"><a href="#"><img src="image/search.jpg"></a></i>
+					<input type="text" name="search" placeholder="搜一下嘛~喵~">
+				</form>
+			</div>		
+		</div><!-- content_nav结束 -->
+		<div class="ad"><div class="ad_left" id="picBox">
+			<div class="loading"><img src="image/loading.gif" alt="图片加载中。。。"></div>
+				<div class="pic">
+				<ul>
+					<li><a href="#"><img src="http://image.mywakao.com/201806/5kZWRwAFi0odWn.jpg" draggable="false"></a></li>
+					<li><a href="#"><img src="http://image.mywakao.com/201806/sUk1yLVQ6zJ5pl.jpg" draggable="false"></a></li>
+					<li><a href="#"><img src="http://image.mywakao.com/201806/8SDdVM4YKNSI2S.jpg" draggable="false"></a></li>
+					<li><a href="#"><img src="http://image.mywakao.com/201805/L2gi4O1sDOvpU3.jpg" draggable="false"></a></li>
+				</ul>
+				</div>
+			</div><!-- ad_left结束 --><!-- 空格消除
+		 --><div class="ad_right">
+		 	<h3>跟团必读</h3>
+		 	<p><a href="#">帮助中心</a></p>
+		 	<p><a href="#">新版哇靠指引</a></p>
+		 	<p><a href="#">哇靠团规</a></p>
+		 	<p><a href="#">广告位位置详解</a></p>
+		 	<h3>卖家必读</h3>
+		 	<p><a href="#">如何开团</a></p>
+		 	<div class="follow_us">
+		 		<span>关注我们</span>
+		 		<a href="#" class="douban"></a>
+		 		<a href="#" class="weibo"></a>
+		 		<a href="#" class="weixin"></a>
+		 	</div>
+		 </div><!-- ad_right结束 -->
+		</div><!-- ad结束 -->
+		<div class="article">
+			<h3>热门文章</h3>
+			<a href="#">更多&nbsp>></a>
+			<hr class="index_hr">
+			<ul>
+				<li class="right_nbsp">
+					<a href="#" class="img_link"><img class="find-index-image-clip" src="http://image.mywakao.com/201806/1HwsQWw6AuZuRp.png"></a>
+					<a href="#" class="text_link">【小靠靠分享】视客网6月隐形钜惠</a>
+					<p>1&nbsp人喜欢<br>by&nbsp兔纸解接</p>
+				</li><!-- 消除空格 
+				--><li class="right_nbsp">
+					<a href="#" class="img_link"><img class="find-index-image-clip" src="http://image.mywakao.com/201805/a2v0y1GuJndmRE.png"></a>
+					<a href="#" class="text_link">【小靠靠分享】加拿大时尚海淘网SSENSE年中大促</a>
+					<p>2&nbsp人喜欢<br>by&nbsp兔纸解接</p>
+				</li><!-- 消除空格 
+				--><li class="right_nbsp">
+					<a href="#" class="img_link"><img class="find-index-image-clip" src="http://image.mywakao.com/201805/lz554HoVbglm68.png"></a>
+					<a href="#" class="text_link">海淘攻略----mankind</a>
+					<p>17&nbsp人喜欢<br>by&nbsp黑盒子</p>
+				</li><!-- 消除空格 
+				--><li>
+					<a href="#" class="img_link"><img class="find-index-image-clip" src="http://image.mywakao.com/201805/4CwlRi8QZH13y2.JPG"></a>
+					<a href="#" class="text_link">大家都来晒晒早餐 对不起早餐馋到你</a>
+					<p>1&nbsp人喜欢<br>by&nbsp西区昊仔</p>
+				</li>
+			</ul>
+		</div>
+		<div class="choice">
+			<h3>靠靠精选</h3>
+			<hr class="index_hr">
+			<ul>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201807/RJBCegVqIWpIiH.jpg"></a><a href="#"><span class="choice_show">SUKIN低至67折</span></a><a href="#" class="text_link">SUKIN低至67折</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201807/28pO2ps9Ia9gGy.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">日淘多庆屋</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201806/wMqBKJ6OpYC34d.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">幸福时光 英国百货</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201806/0tmbs0ruK10Owz.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">黑瞳澈化妆刷</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201806/g7j6vw8joaaNMS.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">日淘多庆屋</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201806/vF1hrxPRIbPNl9.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">BONPONT商城防晒低至53折</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201806/Xuv0MHkn3O0Qhi.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">娇韵诗低至64折</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201804/CfohA5NHPnc8PO.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">全店清仓五折起</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201806/51A4BAldp44bGE.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">LF海淘中文官网香缇卡全线</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201803/RS2Cvwt020DGdj.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">feelunique美妆海淘中文网</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201801/984pf9UZx5xmuo.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">FU官网妙巴黎6折</a></li>
+				<li><a href="#" class="img_link"><img src="http://image.mywakao.com/201706/Vs4NR7HE9X6Wrq.jpg"></a><span class="choice_show"></span><a href="#" class="text_link">Feelunique中文海淘网</a></li>
+			</ul>
+		</div>
+	</div><!-- content结束 -->
+	<div class="copyright">
+		<div class="copyright_left">
+			<p><a href="#">小黑屋</a><a href="#">站长统计</a><a href="#">关于开发者</a></p>
+			<p>©2008－2017 mywakao.com, all rights reserved 粤ICP备13065934号</p></div>
+		<div class="copyright_right">
+			<span>关注我们</span>
+		 	<a href="#" class="douban"></a>
+		 	<a href="#" class="weibo"></a>
+		 	<a href="#" class="weixin"></a>
+		</div><!-- copyright结束 -->
+		<a class="return" href="#head"></a>
+	</div>
+</body>
+</html>
